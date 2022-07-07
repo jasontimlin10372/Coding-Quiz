@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+  <head>
+
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    
+    <link href="./assets/styles.css" rel="stylesheet">
+    
+    <title>Quiz</title>
+  
+  </head>
+  
+  
+  <body>
+
+    
+    <div class="outer-container">
+      
+      <div class="top-bar">
+
+        <a href="./highscore.html">View Highscores</a>
+        <p id="timer"></p>
+        <p>Timer:</p>
+
+
+
+      </div> 
+      
+      <div class="inner-container">
+
+    
+
+    <header class="quiz-intro">
+
+      <h1>Welcome</h1><br>
+      <p>To get started with the quiz, click the start button.</p>
+      <br>
+      <button id="startbtn">START</button>
+
+    </header>
+  
+    
+    <main>
+
+    
+
+        <section class="question-screen hide">
+
+          <h2 id="questions"></h2>
+          <ul>
+            <li><button id="button-a">Answer 1</button></li>
+            <li><button id="button-b">Answer 2</button></li>
+            <li><button id="button-c">Answer 3</button></li>
+            <li><button id="button-d">Answer 4</button></li>
+          </ul>
+
+          <p id="feedback"></p>
+
+        </section>
+
+    
+        <section class="quiz-finish-screen hide">
+          <h2>Quiz Complete</h2>
+          <p>Your Score: <span id="final-score"></span></p>
+          <div>
+          <label for="">Enter </label>
+          <input type="text" id="initials" />
+          <button id="submit">SUBMIT</button>
+          </div>
+        </section>
+
+    </main>
+
+
+      </div> 
+    </div> 
+  
+  
+  </body>
+
+    <script src="./assets/js.js"></script>
+
+  </html>

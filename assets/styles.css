@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+
+}
+
+a {
+   text-decoration: none; 
+   background-color: black;
+   color: lightblue;
+   border-radius: 25px;
+   padding-inline: 10px;
+   border: 1px solid blue;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+body {
+    background-color: lightblue;
+    overflow: hidden;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*-------------*/
+/*Main Outer Div*/
+/*-------------*/
+
+p {
+    color: black;
+}
+
+button {
+    outline: none;
+    background-color: lightblue;
+    border-radius: 25px;
+    padding-inline: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+    border-color: lightskyblue;
+
+}
+
+button:hover {
+   border-color: grey; 
+}
+
+
+
+
+/*-------------*/
+/*Outer container*/
+/*-------------*/
+
+
+.outer-container {
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+/*--------*/
+/*Top Bar*/
+/*-------*/
+
+/*Timer*/
+.top-bar p {
+    float: right;
+}
+
+/*---------*/
+/*Inner Div*/
+/*---------*/
+
+.inner-container {
+    background-color: white;
+    height: 70%;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 10px 2px #a8cdd8;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+/*-------------------------*/
+/*Header/Quiz Intro Section*/
+/*------------------------*/
+
+h1, h2 {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    text-align: center;
+}
+
+.quiz-intro, main {
+    margin-bottom: 10vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: transparent;
+}
+
+.quiz-intro button {
+    outline: none;
+    border-color: black;
+    background-color: white;
+    padding-inline: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.hide {
+    display: none;
+}
