@@ -111,7 +111,7 @@ var startTime = function() {
 
  
 
-var currentquestionIndex = 0;
+var currentquestionIndex = 0; 
 function endQuiz() {
     clearInterval(valId);
 
