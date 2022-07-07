@@ -16,4 +16,4 @@ function getHighscore() {
     })
 }
 
-getHighscore()
+getHighscore() 
